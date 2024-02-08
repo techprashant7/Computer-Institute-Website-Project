@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Basic styling for the navbar */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("hero.jpg");
+           
+            width:100%;
+            height:100%;
+        }
+        h1{
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav {
+           background: gray;
+            overflow: hidden;
+            text-align: center;
+            margin:0 15px;
+           
+          
+        }
+
+
+
+
+        p{
+            text-align: center;
+            margin-top: 2px;
+            font-size: 40px;
+      color: rgb(213, 153, 75);
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-weight: 300;
+
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 100px;
+            text-decoration: none;
+            justify-content: center;
+            margin: 0 15px;
+            
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+            align-items: center;
+        }
+        .search-container {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: gray;
+    color:black;
+    text-align: center;
+    padding: 2px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: black;
+    font-size:25px ;
+    text-align: center;
+    padding: 5px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+#searchInput{
+    width: 500px;
+}
+
+    </style>
+</head>
+<body>
+
+<!-- Navbar HTML structure -->
+<nav>
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#help">Help</a>
+
+</nav>
+
+<!-- Add your webpage content below -->
+<div>
+    <h1>Welcome to Courses</h1>
+    <p><b>If, at first, you do not succeed, call it version 1.0.</b></p>
+    <!-- Other content goes here -->
+</div>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button onclick="search()">Search</button>
+</div>
+
+<footer>
+    <p><b> 2024 Your Website. All rights reserved.</b></p>
+</footer>
+</body>
+</html>
